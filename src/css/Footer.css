@@ -1,0 +1,63 @@
+.footerRoot {
+    background-color: black;
+    color: white;
+    padding-top: 2%;
+    border-top: 2px solid white;
+}
+
+.imgFooter {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.fotterContainer {
+    display: flex;
+}
+
+.mottoContainer {
+    width: 40%;
+    margin: 30px 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.FooterLink {
+    color: cyan;
+    font-weight: 100;
+}
+
+.FooterLink:hover {
+    color: cyan;
+    font-weight: bolder;
+}
+
+.designBy {
+    margin: auto;
+    margin-right: 3%;
+    text-align: right;
+    display: grid;
+}
+
+.socialFooter {
+    margin: 1%;
+    margin-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    margin-right: auto;
+}
+
+.socialFooterIco {
+    padding: 0;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.socialeAndPlus  {
+    display: flex;
+}
+
+.addArtBox {
+    margin-top: 20px;
+    margin-right: 3%;
+}

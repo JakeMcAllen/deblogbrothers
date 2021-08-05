@@ -1,0 +1,14 @@
+.containerCopyRight {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin: 10% 20%;
+    border: 1px solid;
+    padding: 2%;
+    background-color: antiquewhite;
+}
+
+.CopyRightBox {
+    margin: auto;
+    text-align: justify;
+}

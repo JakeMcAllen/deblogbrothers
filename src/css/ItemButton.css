@@ -1,0 +1,118 @@
+.title {
+    margin-left: 5%;
+    font-size: xxx-large;
+}
+
+.ItemButton {
+    background-color: burlywood;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+    
+.ItemButton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+    
+.ItemButtonFQ {
+    background-color: burlywood;
+    border-radius: 15px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;    
+}
+    
+.ItemButtonFQ:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);    
+}
+
+.linkCAL {
+    color: black;
+    text-decoration: none;
+}
+
+.linkCAL:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.Pclass  {
+    text-align: justify;
+    font-size: large;
+    padding: 15px;
+    background: antiquewhite;
+    padding: 15px;
+    border-radius: 5px;
+    border-top-left-radius: 25px;
+    box-shadow: -5px 2px 10px #888888;
+}
+
+.serachBoxContainer {
+    display: initial;
+    text-align: center;
+    font-size: initial;
+}
+
+.serachBoxContainer > h2 {
+    margin: auto;
+    font-weight: bolder;
+}
+
+.serachBoxContainer > h2 > input {
+    width: 60%;
+    height: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 15px;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.titleLink {
+    color: black;
+}
+
+.buttonLinks {
+    border: 1px solid;
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.buttonLinks:hover {background-color: #3e8e41}
+
+.buttonLinks:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonLinks > img {
+    width: 20px;
+    margin-top: 0;
+    margin: auto;
+}
+

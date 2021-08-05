@@ -1,0 +1,80 @@
+.mainTitolo {
+    font-size: 300%;
+    margin: 0;
+    margin-left: 15%;
+    padding-top: 2%;
+}
+
+.root  {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    width: 70%;
+}
+
+.ImgBox > img {
+    border-radius: 100%;
+    border: 2px black;
+    margin-top: 20%;
+}
+
+.ContainerDescr {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.MottoBox > p {
+    margin-left: 2%;
+}
+
+.descrizioneBox {
+    padding-left: 2%;
+}
+
+.descrizioneBox > h1 {
+    font-size: 600%;
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+}
+
+.descrizioneBox > p {
+    margin-top: 40px;
+}
+
+.socialBoxContainer {
+    display: flex;
+}
+
+.contattiContainer {
+    display: flex;
+    padding: 0;
+    padding: 1% 0 0 2%;
+    color: cornflowerblue;
+}
+
+.contattiContainer > img {
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.contattiContainer > p {
+    padding: 0;
+    margin: 0;
+}
+
+.refBox {
+    font-weight: 800;
+}
+
+.descrizioneBox {
+    display: flex;
+}
+
+.imgIntLg {
+    height: 40px
+}

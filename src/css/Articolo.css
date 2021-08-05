@@ -1,0 +1,131 @@
+.artCont {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.postedDateBox {
+    display: inline-flex;
+    font-size: 12px;
+}
+
+.postedDateBox > img {
+    height: 12px;
+}
+
+.postedDateBox > p {
+    margin: 0 0 0 5px;
+}
+
+.divArtText {
+    margin: 3% 0;
+    text-align: justify;
+    background: antiquewhite;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.cnclObj {
+    margin: 0;
+    padding: 0;
+    height: 1;
+    visibility: hidden;
+}
+
+.TagsContainer {
+    position: relative;
+    background-color: #DDDDDD;
+    border-radius: 5px 5px 0 0;
+    float: right;
+        -moz-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform-origin: 100% 100%;
+        -o-transform-origin: 100% 100%;
+        -webkit-transform-origin: 100% 100%;
+}
+
+.tagCont {
+    display: inline-flex;
+}
+
+.tag {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.tagSep {
+    margin: 0 5px;
+    padding: 0;
+}
+
+.divChat {
+    margin: 3% 0;
+    text-align: justify;
+    margin-bottom: 0;
+    padding-bottom: 3%;
+}
+
+.artCont > h1 {
+    padding: 0%;
+    margin: 0%;
+    font-size: xxx-large;
+}
+
+.textContainer {
+    text-align: justify;
+}
+
+.likes {
+    font-style: oblique;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    width: -webkit-fit-content;
+    padding: 7px;
+    border-radius: 10px;
+    margin-left: 2%;
+    position: fixed;
+    left: 1%;
+    top: 20%;
+}
+
+.likes > img {
+    height: 15px;
+}
+
+.likes:active {
+    background-color: #5375cf;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.TitleContainerChat {
+    margin: auto;
+    display: flex;
+}
+
+<<<<<<< HEAD
+=======
+.imgArt {
+    height: 50%;
+    width: 50%;
+}
+
+>>>>>>> develop1
+.photoContainer {
+    padding: 20px;
+    column-count: 5;
+    column-width: 400px;
+    column-gap: 10px;
+    /* width: 100%; */
+    max-width: 1600px;
+    margin: auto;
+    margin: 0 auto 50px;
+}
+
+.photoItems {
+    margin: 0 auto 5px;
+    width: 100%;
+}

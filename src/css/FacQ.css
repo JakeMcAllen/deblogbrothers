@@ -1,0 +1,113 @@
+.title {
+    font-size: 300%;
+    margin: 0;
+    margin-left: 15%;
+    padding-top: 2%;
+    margin-bottom: 30px;
+}
+
+.Pagecontainer {
+    text-align: center;
+}
+
+.listPageNum {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pageButtonContainer {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pageButton {
+    border-radius: 10px;
+    padding: 10px;
+    width: 40px;
+    border-width: 1px;
+    margin: 10px;
+    border-color: black;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+}
+
+.pageButton:hover {
+    color: blue;
+    background-color: white;
+}
+
+.NoPageMSG {
+    margin: auto;
+    margin-top: 30px;
+}
+
+.pageButtonContainerCurrent {
+    margin: auto;
+    margin-right: 20px;
+}
+
+.CercaButton, .CercaButton2 {
+    height: 32px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: green;
+    font-size: large;
+    border: none;
+    color: white;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.CercaButton:hover, .CercaButton2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.addAskButton {
+    display: inline-block;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    border: none;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.addAskButton:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.ItemButtonFQ{
+    color: white;
+    border: none;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.ItemButtonFQ:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.inputBox2 {
+    width: 60%;
+    height: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 15px;
+    font-size: large;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-bottom: 2px;
+}
+
+.OpenCloseContainer > h1 {
+    margin: 0 10px;
+}

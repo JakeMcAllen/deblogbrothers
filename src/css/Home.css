@@ -1,0 +1,141 @@
+.PageContainer {
+    padding-bottom: 20px;
+}
+
+.imgContainer {
+    display: inline;
+    margin-top: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+}
+
+.imgContainer > h1 {
+    border: 5px solid;
+    padding: 0px 10px;
+    border-radius: 45px;
+    border-color: transparent;
+}
+
+.imgContainer > h1:hover {
+    border-color: #5375cf;
+    color: #5375cf;
+}
+
+.imgContainer > img {
+    margin: 2px auto 10px auto;
+    width: 40%;
+    padding: 2px;
+    padding: 5px;
+    border: 5px solid;
+    border-color: transparent;
+    border-radius: 9px;
+    position: relative;
+}
+
+.imgContainer > img:hover {
+    border-color: #c38d14;
+    border-radius: 15px;
+}
+
+.imgContainer > h1 {
+    color: black;
+    display: block;
+    margin: 0;
+    width: fit-content;
+    margin-top: 5px;
+}
+
+.imgContainer > p {
+    width: 80%;
+    margin: auto;
+    font-size: smaller;
+    text-align: justify;
+    background: antiquewhite;
+    padding: 15px;
+    border-radius: 2px;
+    border-top-left-radius: 25px;
+    box-shadow: -5px 2px 10px #888888;
+}
+
+.ListArticles {
+    background-color: #777373;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+.ListArticles > h1 {
+    margin: 0% 0 0 10%;
+    padding-top: 25px;
+}
+
+.artcoloBox > ul {
+    margin: auto;
+    width: 80%;
+    display: inherit;
+}
+
+.artItm {
+    display: flex;
+    margin-bottom: 10px;
+    /* width: 40%; */
+}
+
+.imgOldArt {
+    margin-right: 10%;
+    max-height: 400px;
+}
+
+.artCont {
+    padding-top: 2%;
+}
+
+.d-flex div {
+    padding: 0.5rem 0 0.5rem 0;
+    color: #000;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    font-size: 90%;
+}
+
+.currentTitle {
+    margin: auto;
+}
+
+.linkTitleContainer {
+    margin: auto;
+}
+
+.MainArticle {
+    display: block;
+}
+
+
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
+}
+  
+@keyframes dash {
+    from {
+      stroke-dashoffset: 822;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+}
+
+.svg1 {
+    position: absolute;
+    top: 210px;
+    left: 5%;
+}
+
+.svg2 {
+    position: absolute;
+    top: 350px;
+    right: 55%;
+}

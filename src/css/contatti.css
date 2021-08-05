@@ -1,0 +1,35 @@
+.titleContatti {
+    font-size: 300%;
+    margin: 0;
+    margin-left: 15%;
+    padding-top: 2%;
+}
+
+.textCollegamenti {
+    margin: 7%;
+    padding-top: 2%;
+    padding: 0%;
+    margin-right: 0;
+    font-size: xx-large;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+}
+
+.subtitle {
+    margin-left: 4%;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.contattiBox {
+    padding: 0 10%;
+}
+
+.refBoxContainer {
+    display: inline-flex;
+}
+
+.refBox {
+    margin: auto;
+    margin-left: 20px;
+}

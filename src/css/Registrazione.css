@@ -1,0 +1,40 @@
+.rootRegister {
+    display: grid;
+    text-align: center;
+}
+
+.registerTitle {
+    margin: auto;
+    margin-top: 15px;
+}
+
+.response {
+    margin: auto;
+}
+
+.InputBoxContainer {
+    margin: auto;    
+    display: grid;
+    padding-bottom: 35px;
+}
+
+.InputBoxContainer > h2 {
+    margin: 0%;
+    margin-top: 10%;
+}
+
+.InputBox {
+    margin: 0;
+    padding: 1% 20%;
+    border-radius: 5px;
+}
+
+.SubmitRegistration {
+    margin-top: 10%;
+    padding: 1% 30%;
+    background-color: #5375cf;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+    border-radius: 15px;
+}

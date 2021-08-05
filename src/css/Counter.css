@@ -1,0 +1,22 @@
+.App {
+    display: inline-flex;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    font-feature-settings: "smcp";
+    font-variant: small-caps;
+    border-bottom-right-radius: 15px;
+}
+
+.App > p {
+    margin-top:  0;
+    margin-bottom:  0;
+}
+
+.Next {
+    margin-top:  0;
+    margin-bottom:  0;
+    margin-right: 5px;
+}
