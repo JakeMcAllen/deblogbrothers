@@ -64,7 +64,15 @@ export default class ItemPresentazioneSocio extends React.Component {
                             </p>
                         </div>
 
-                        <a href="https://wa.me/message/VCDDMWZDOV55F1"> whazzApp </a>
+                        {
+                            this.props.whatsapp != "" ?
+                                <div>
+                                    <img className="imgIntLg" src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png"/>
+                                    <a href={this.props.whatsapp}> whatsapp </a>
+                                </div>
+                            : ""
+                        }
+                        
 
                         <div className="contattiContainer">
                             <img className="ImgContact" src="https://img.icons8.com/windows/32/000000/phone.png" style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}/>

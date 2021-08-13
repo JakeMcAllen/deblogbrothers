@@ -37,6 +37,7 @@ export default class ChiSiamo extends React.Component {
                         flickr=""
                         linkedin=""
                         twitter=""
+                        whatsapp=""
                         colorMode={this.props.colorMode}
                     />
                     <ItemPresentazioneSocio  
@@ -54,6 +55,7 @@ export default class ChiSiamo extends React.Component {
                         flickr="https://www.flickr.com/photos/simone-ribero/"
                         linkedin="https://www.linkedin.com/in/simone-ribero/"
                         twitter="https://twitter.com/simoribero"
+                        whatsapp="https://wa.me/message/VCDDMWZDOV55F1"
                         colorMode={this.props.colorMode}
                     />
                 </div>
