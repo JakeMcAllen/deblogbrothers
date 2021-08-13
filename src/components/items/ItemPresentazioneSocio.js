@@ -66,9 +66,11 @@ export default class ItemPresentazioneSocio extends React.Component {
 
                         {
                             this.props.whatsapp != "" ?
-                                <div>
+                                <div className="contattiContainer">
                                     <img className="imgIntLg" src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png"/>
-                                    <a href={this.props.whatsapp}> whatsapp </a>
+                                    <p> 
+                                        <a href={this.props.whatsapp}> whatsapp </a>
+                                    </p>
                                 </div>
                             : ""
                         }
