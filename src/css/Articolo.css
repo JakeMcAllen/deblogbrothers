@@ -106,14 +106,11 @@
     display: flex;
 }
 
-<<<<<<< HEAD
-=======
 .imgArt {
     height: 50%;
     width: 50%;
 }
 
->>>>>>> develop1
 .photoContainer {
     padding: 20px;
     column-count: 5;

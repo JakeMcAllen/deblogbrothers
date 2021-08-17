@@ -21,9 +21,6 @@ export default class articolo extends Component {
 
         let id = this.props.imgId;
 
-        console.log("id: " + id);
-
-
         // get secondary img
         axios.get(setting.path + 'img/getImgById/' + id)
         .then(res => {
@@ -41,7 +38,6 @@ export default class articolo extends Component {
     render() {
         return (
             <img key={this.props.key} className="photoItems" src={this.state.img} />
-            // <p> {this.state.img} </p>
         )
     }
 
