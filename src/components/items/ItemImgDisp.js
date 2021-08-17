@@ -40,7 +40,7 @@ export default class articolo extends Component {
     
     render() {
         return (
-            <img className="photoItems" src={this.state.img} />
+            <img key={this.props.key} className="photoItems" src={this.state.img} />
             // <p> {this.state.img} </p>
         )
     }
