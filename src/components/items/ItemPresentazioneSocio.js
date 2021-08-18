@@ -86,7 +86,10 @@ export default class ItemPresentazioneSocio extends React.Component {
                                         className="ImgContact" 
                                         style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
                                     />
-                                    <p> 
+                                    <p 
+                                        className="refBox" 
+                                        style={{color: this.props.colorMode ? 'blue' : '#e3a419' }}
+                                    > 
                                         <a href={this.props.whatsapp}> whatsapp </a>
                                     </p>
                                 </div>
