@@ -3,7 +3,7 @@ import "./../../css/chiSiamo.css"
 import { FaFacebookF, FaWordpressSimple, FaInstagram,
             FaBehance, FaFlickr, FaLinkedinIn, FaTwitter } 
         from 'react-icons/fa'
-import { AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineMail, AiOutlineWhatsApp, AiOutlinePhone } from 'react-icons/ai'
 
         
 const flexCond = { display: 'flex' }
