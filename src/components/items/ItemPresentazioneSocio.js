@@ -55,12 +55,17 @@ export default class ItemPresentazioneSocio extends React.Component {
                         { ( this.props.twitter != "" ) ? <a className="icoDisp" href={this.props.twitter}> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
 
                     </div>
+
                     <div className="Contact">
                         <div className="contattiContainer">
-                            <AiOutlineMail
-                                className="icoDisp"
-                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
-                            />
+                            <a 
+                                href={"mailto:" + this.props.mail}
+                            >
+                                <AiOutlineMail
+                                    className="icoDisp"
+                                    style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
+                                />
+                            </a>
                             <p> 
                                 <a 
                                     className="refBox" 
@@ -75,10 +80,14 @@ export default class ItemPresentazioneSocio extends React.Component {
                         {
                             this.props.whatsapp != "" ?
                                 <div className="contattiContainer">
-                                    <AiOutlineWhatsApp 
-                                        className="icoDisp" 
-                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
-                                    />
+                                    <a 
+                                        href={this.props.whatsapp}
+                                    >
+                                        <AiOutlineWhatsApp 
+                                            className="icoDisp" 
+                                            style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
+                                        />
+                                    </a>
                                     <p> 
                                         <a 
                                             className="refBox" 
@@ -91,10 +100,14 @@ export default class ItemPresentazioneSocio extends React.Component {
                         }
                         
                         <div className="contattiContainer">
-                            <AiOutlinePhone 
-                                className="icoDisp" 
-                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
-                            />
+                            <a 
+                                href={"tel:+39" + this.props.phoneNumber}
+                            >
+                                <AiOutlinePhone 
+                                    className="icoDisp" 
+                                    style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
+                                />
+                            </a>
                             <p> 
                                 <a 
                                     className="refBox" 
