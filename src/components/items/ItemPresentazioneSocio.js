@@ -79,11 +79,12 @@ export default class ItemPresentazioneSocio extends React.Component {
                                         className="icoDisp" 
                                         style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
                                     />
-                                    <p 
-                                        className="refBox" 
-                                        style={{color: this.props.colorMode ? 'blue' : '#e3a419' }}
-                                    > 
-                                        <a href={this.props.whatsapp}> whatsapp </a>
+                                    <p> 
+                                        <a 
+                                            className="refBox" 
+                                            href={this.props.whatsapp}                                         
+                                            style={{color: this.props.colorMode ? 'blue' : '#e3a419' }}
+                                        > whatsapp </a>
                                     </p>
                                 </div>
                             : ""
