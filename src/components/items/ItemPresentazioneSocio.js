@@ -62,7 +62,7 @@ export default class ItemPresentazioneSocio extends React.Component {
                     </div>
                     <div className="Contact">
                         <div className="contattiContainer">
-                            <IoMailOpenOutline 
+                            <AiOutlineMail 
                                 className="ImgContact" 
                                 style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
                             />
