@@ -5,9 +5,27 @@ import Chat from './Chat'
 import cookie from 'react-cookies'
 import setting from './../setting'
 import ItemImgDisp from './items/ItemImgDisp'
-import moment from 'moment';
 import { Link } from "react-router-dom";
 
+
+
+function meseTrad(i) {
+    var mesi = new Array(); 
+    mesi[0] = "Gennaio"; 
+    mesi[1] = "Febbraio"; 
+    mesi[2] = "Marzo"; 
+    mesi[3] = "Aprile"; 
+    mesi[4] = "Maggio"; 
+    mesi[5] = "Giugno"; 
+    mesi[6] = "Luglio"; 
+    mesi[7] = "Agosto"; 
+    mesi[8] = "Settembre"; 
+    mesi[9] = "Ottobre"; 
+    mesi[10] = "Novembre"; 
+    mesi[11] = "Dicembre";
+
+    return mesi[i];
+}
 
 export default class articolo extends Component {
     constructor (props) {
@@ -62,7 +80,7 @@ export default class articolo extends Component {
         axios.get(setting.path + 'artc/getArt/' + id)
         .then(res => { 
             var dtStr = res.data.pubblication_art.split("-");
-            var mth = moment().month( Number( dtStr[1] ) - 1 ).format("MMMM").lang("it");
+            var mth = meseTrad( Number( dtStr[1] ) - 1 );
 
             this.setState({pFormat: res.data.layout})
             this.setState({title: res.data.titolo});
