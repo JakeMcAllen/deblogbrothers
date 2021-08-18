@@ -86,11 +86,12 @@ export default class articolo extends Component {
             this.setState({title: res.data.titolo});
             this.setState({artcl: res.data.textContext});
             this.setState({likes: res.data.like});
-            this.setState({pubblicationDate: " " + dtStr[0] + " " + mth + " " + dtStr[2] + " by "});
+            this.setState({pubblicationDate: " " + dtStr[0] + " " + mth + " " + dtStr[2] + " da "});
         }).catch(error => {
             this.setState({ msg: error.message });
             console.error('There was an error!', error);
         });
+
 
 
         // get first img 
@@ -250,7 +251,7 @@ export default class articolo extends Component {
                             {this.state.pubblicationDate}
                             <Link 
                                 to={'/'} 
-                                onClick={() => { this.setState({menuIsOpen: false}); this.setState({page: '/Registrazione'}); this.props.changePath("/"); } } 
+                                onClick={() => { this.setState({menuIsOpen: false}); this.setState({page: '/ChiSiamo'}); this.props.changePath("/"); } } 
                                 style={{color: this.props.colorMode ? setting.lightColorInv : setting.darkColorInv, fontWeight: 'bold' }}
                             > 
                                 deblogbrothers 
