@@ -59,7 +59,9 @@ export default class Footer extends Component {
                         Vogliamo rendere felici le persone e fornire agli utenti una piacevole esperienza online, condividendo le nostre passioni e realizzando contenuti durevoli nel tempo <br/>in cui sia possibile riconoscersi
                     </div>
                     <div className="designBy">
-                        Designed by <a className="FooterLink" href="https://www.linkedin.com/in/giorgio-allena-bb37b41b6/"> Giorgio Allena</a>
+                        Designed by 
+                            <a className="FooterLink" href="https://www.linkedin.com/in/giorgio-allena-bb37b41b6/"> Giorgio Allena</a>
+                            <a className="FooterLink" href="https://www.facebook.com/salvo.sapienza.75"> Salvatore Rosario Sapienza </a>
                         <Link 
                             className="FooterLink" 
                             style={{marginTop: '20px'}} 
