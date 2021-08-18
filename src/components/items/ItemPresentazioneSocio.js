@@ -1,6 +1,11 @@
 import React from 'react'
 import "./../../css/chiSiamo.css"
+import { FaFacebookF, FaWordpressSimple, FaInstagram,
+            FaBehance, FaFlickr, FaLinkedinIn, FaTwitter } 
+        from 'react-icons/fa';
 
+
+        
 const flexCond = { display: 'flex' }
 const gridCond = { display: 'grid' }
 
@@ -41,13 +46,17 @@ export default class ItemPresentazioneSocio extends React.Component {
                     </div>
                     <div className="socialBoxContainer">
 
-                        { ( this.props.facebook != "" ) ? <a href={this.props.facebook}> <img className="imgIntLg" src="https://img.icons8.com/metro/52/000000/facebook.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
-                        { ( this.props.wordPress != "" ) ? <a href={this.props.wordPress}> <img className="imgIntLg" src="https://img.icons8.com/metro/52/000000/wordpress.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
-                        { ( this.props.instagram != "" ) ? <a href={this.props.instagram}> <img className="imgIntLg" src="https://img.icons8.com/ios-glyphs/60/000000/instagram-new.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
-                        { ( this.props.behance != "" ) ? <a href={this.props.behance}> <img className="imgIntLg" src="https://img.icons8.com/ios-glyphs/90/000000/behance.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
+                        { ( this.props.facebook != "" ) ? <a href={this.props.facebook}> <FaFacebookF style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.wordPress != "" ) ? <a href={this.props.wordPress}> <FaWordpressSimple style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.instagram != "" ) ? <a href={this.props.instagram}> <FaInstagram style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.behance != "" ) ? <a href={this.props.behance}> <FaBehance style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.flickr != "" ) ? <a href={this.props.flickr}> <FaFlickr style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.linkedin != "" ) ? <a href={this.props.linkedin}> <FaLinkedinIn style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.twitter != "" ) ? <a href={this.props.twitter}> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+
+
                         { ( this.props.flickr != "" ) ? <a href={this.props.flickr}> <img className="imgIntLg" src="https://img.icons8.com/fluent-systems-filled/96/000000/flickr.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
-                        { ( this.props.linkedin != "" ) ? <a href={this.props.linkedin}> <img className="imgIntLg" src="https://img.icons8.com/android/96/000000/linkedin.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
-                        { ( this.props.twitter != "" ) ? <a href={this.props.twitter}> <img className="imgIntLg" src="https://img.icons8.com/material-sharp/96/000000/twitter.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
+
 
                     </div>
                     <div className="Contact">
@@ -59,6 +68,7 @@ export default class ItemPresentazioneSocio extends React.Component {
                                     href={"mailto:" + this.props.mail}
                                     style={{color: this.props.colorMode ? 'blue' : '#e3a419' }}
                                 > 
+
                                     {this.props.mail} 
                                 </a> 
                             </p>
