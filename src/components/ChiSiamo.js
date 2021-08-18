@@ -24,7 +24,7 @@ export default class ChiSiamo extends React.Component {
                     <h1 className="mainTitolo"> Chi siamo </h1>
 
                     <div>
-                        <h3> Missione: </h3>
+                        <h3 className="subTitle"> Missione: </h3>
                         <dir className="textCollegamenti"> 
                             DeBlogBrothers nasce per esaltare il legame tra Fotografia e Scrittura, le nostre più grandi passioni.
                             <br />
@@ -37,7 +37,7 @@ export default class ChiSiamo extends React.Component {
                     </div>
 
                     <div>
-                        <h3> Soci: </h3>
+                        <h3 className="subTitle"> Soci: </h3>
                         <div className="socCont">
                             <ItemPresentazioneSocio  
                                 img={imgCV2}
