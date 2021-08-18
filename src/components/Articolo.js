@@ -62,7 +62,7 @@ export default class articolo extends Component {
         axios.get(setting.path + 'artc/getArt/' + id)
         .then(res => { 
             var dtStr = res.data.pubblication_art.split("-");
-            var mth = moment().month( Number( dtStr[1] ) - 1 ).format("MMMM");
+            var mth = moment().month( Number( dtStr[1] ) - 1 ).format("MMMM").lang("it");
 
             this.setState({pFormat: res.data.layout})
             this.setState({title: res.data.titolo});
@@ -228,7 +228,7 @@ export default class articolo extends Component {
                             style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}
                         />
                         <p> 
-                            Posted on 
+                            Postato nel 
                             {this.state.pubblicationDate}
                             <Link 
                                 to={'/'} 
