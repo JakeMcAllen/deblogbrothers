@@ -1,7 +1,8 @@
 import React from 'react'
 import "./../../css/chiSiamo.css"
 import { FaFacebookF, FaWordpressSimple, FaInstagram,
-            FaBehance, FaFlickr, FaLinkedinIn, FaTwitter } 
+            FaBehance, FaFlickr, FaLinkedinIn, FaTwitter,
+            AiOutlineMail, } 
         from 'react-icons/fa';
 
 
@@ -46,13 +47,13 @@ export default class ItemPresentazioneSocio extends React.Component {
                     </div>
                     <div className="socialBoxContainer">
 
-                        { ( this.props.facebook != "" ) ? <a href={this.props.facebook}> <FaFacebookF style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.wordPress != "" ) ? <a href={this.props.wordPress}> <FaWordpressSimple style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.instagram != "" ) ? <a href={this.props.instagram}> <FaInstagram style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.behance != "" ) ? <a href={this.props.behance}> <FaBehance style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.flickr != "" ) ? <a href={this.props.flickr}> <FaFlickr style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.linkedin != "" ) ? <a href={this.props.linkedin}> <FaLinkedinIn style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.twitter != "" ) ? <a href={this.props.twitter}> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.facebook != "" ) ? <a className="icoDisp" href={this.props.facebook}> <FaFacebookF style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.wordPress != "" ) ? <a className="icoDisp" href={this.props.wordPress}> <FaWordpressSimple style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.instagram != "" ) ? <a className="icoDisp" href={this.props.instagram}> <FaInstagram style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.behance != "" ) ? <a className="icoDisp" href={this.props.behance}> <FaBehance style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.flickr != "" ) ? <a className="icoDisp" href={this.props.flickr}> <FaFlickr style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.linkedin != "" ) ? <a className="icoDisp" href={this.props.linkedin}> <FaLinkedinIn style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.twitter != "" ) ? <a className="icoDisp" href={this.props.twitter}> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
 
 
                         { ( this.props.flickr != "" ) ? <a href={this.props.flickr}> <img className="imgIntLg" src="https://img.icons8.com/fluent-systems-filled/96/000000/flickr.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
@@ -61,7 +62,10 @@ export default class ItemPresentazioneSocio extends React.Component {
                     </div>
                     <div className="Contact">
                         <div className="contattiContainer">
-                            <img className="ImgContact" src="https://img.icons8.com/ios/50/000000/mail.png" style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}/>
+                            <AiOutlineMail 
+                                className="ImgContact" 
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
+                            />
                             <p> 
                                 <a 
                                     className="refBox" 
@@ -78,6 +82,10 @@ export default class ItemPresentazioneSocio extends React.Component {
                             this.props.whatsapp != "" ?
                                 <div className="contattiContainer">
                                     <img className="imgIntLg" src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png"/>
+                                    <AiOutlineWhatsApp 
+                                        className="ImgContact" 
+                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
+                                    />
                                     <p> 
                                         <a href={this.props.whatsapp}> whatsapp </a>
                                     </p>
@@ -85,9 +93,11 @@ export default class ItemPresentazioneSocio extends React.Component {
                             : ""
                         }
                         
-
                         <div className="contattiContainer">
-                            <img className="ImgContact" src="https://img.icons8.com/windows/32/000000/phone.png" style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}/>
+                            <AiOutlinePhone 
+                                className="ImgContact" 
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
+                            />
                             <p> 
                                 <a 
                                     className="refBox" 
