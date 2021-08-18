@@ -61,7 +61,7 @@ export default class ItemPresentazioneSocio extends React.Component {
                             <AiOutlineMail
                                 className="icoDisp"
                                 onClick={ () => window.open("mailto:" + this.props.mail, '_blank') }
-                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0', cursor: pointer }}
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
                             />
                             <p> 
                                 <a 
@@ -80,7 +80,7 @@ export default class ItemPresentazioneSocio extends React.Component {
                                     <AiOutlineWhatsApp 
                                         className="icoDisp" 
                                         onClick={ () => window.open(this.props.whatsapp, '_blank') }
-                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0', cursor: pointer }}
+                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
                                     />
                                     <p> 
                                         <a 
@@ -97,7 +97,7 @@ export default class ItemPresentazioneSocio extends React.Component {
                             <AiOutlinePhone 
                                 className="icoDisp" 
                                 onClick={ () => window.open("tel:+39" + this.props.phoneNumber, '_blank') }
-                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0', cursor: pointer }}
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
                             />
                             <p> 
                                 <a 
