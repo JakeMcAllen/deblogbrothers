@@ -85,9 +85,9 @@ export default class Footer extends Component {
                 </div>
                 <div className="socialeAndPlus">
                     <div className="socialFooter">
-                        <a href="https://www.facebook.com/deblogbrothers"> <img className="socialFooterIco" src="https://img.icons8.com/android/96/ffffff/facebook.png"/> </a>
-                        <a href="https://www.linkedin.com/company/deblogbrothers/"> <img className="socialFooterIco" src="https://img.icons8.com/android/48/ffffff/linkedin.png"/> </a>
-                        <a href="https://www.instagram.com/deblogbrothers/?hl=en"> <img className="socialFooterIco" src="https://img.icons8.com/metro/52/ffffff/instagram-new.png"/> </a>
+                        <a className="footerSocial" onClick={ () => window.open("https://www.facebook.com/deblogbrothers", '_blank')}> <img className="socialFooterIco" src="https://img.icons8.com/android/96/ffffff/facebook.png"/> </a>
+                        <a className="footerSocial" onClick={ () => window.open("https://www.linkedin.com/company/deblogbrothers/", '_blank')}> <img className="socialFooterIco" src="https://img.icons8.com/android/48/ffffff/linkedin.png"/> </a>
+                        <a className="footerSocial" onClick={ () => window.open("https://www.instagram.com/deblogbrothers/?hl=en", '_blank')}> <img className="socialFooterIco" src="https://img.icons8.com/metro/52/ffffff/instagram-new.png"/> </a>
                     </div>
                 </div>
             </div>
