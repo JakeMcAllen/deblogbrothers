@@ -2,7 +2,7 @@ import React from 'react'
 import "./../../css/chiSiamo.css"
 import { FaFacebookF, FaWordpressSimple, FaInstagram,
             FaBehance, FaFlickr, FaLinkedinIn, FaTwitter,
-            AiOutlineMail } 
+            IoMailOpenOutline } 
         from 'react-icons/fa';
 
 
@@ -54,15 +54,11 @@ export default class ItemPresentazioneSocio extends React.Component {
                         { ( this.props.flickr != "" ) ? <a className="icoDisp" href={this.props.flickr}> <FaFlickr style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
                         { ( this.props.linkedin != "" ) ? <a className="icoDisp" href={this.props.linkedin}> <FaLinkedinIn style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
                         { ( this.props.twitter != "" ) ? <a className="icoDisp" href={this.props.twitter}> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        
-
-                        { ( this.props.flickr != "" ) ? <a href={this.props.flickr}> <img className="imgIntLg" src="https://img.icons8.com/fluent-systems-filled/96/000000/flickr.png" style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }}/> </a> : "" }
-
 
                     </div>
                     <div className="Contact">
                         <div className="contattiContainer">
-                            <AiOutlineMail 
+                            <IoMailOpenOutline
                                 className="ImgContact" 
                                 style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
                             />
@@ -72,7 +68,6 @@ export default class ItemPresentazioneSocio extends React.Component {
                                     href={"mailto:" + this.props.mail}
                                     style={{color: this.props.colorMode ? 'blue' : '#e3a419' }}
                                 > 
-
                                     {this.props.mail} 
                                 </a> 
                             </p>
@@ -81,7 +76,6 @@ export default class ItemPresentazioneSocio extends React.Component {
                         {
                             this.props.whatsapp != "" ?
                                 <div className="contattiContainer">
-                                    <img className="imgIntLg" src="https://img.icons8.com/material-outlined/48/000000/whatsapp--v1.png"/>
                                     <AiOutlineWhatsApp 
                                         className="ImgContact" 
                                         style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
