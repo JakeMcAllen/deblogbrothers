@@ -1,10 +1,9 @@
 import React from 'react'
 import "./../../css/chiSiamo.css"
 import { FaFacebookF, FaWordpressSimple, FaInstagram,
-            FaBehance, FaFlickr, FaLinkedinIn, FaTwitter,
-            IoMailOpenOutline } 
-        from 'react-icons/fa';
-
+            FaBehance, FaFlickr, FaLinkedinIn, FaTwitter } 
+        from 'react-icons/fa'
+import { AiOutlineMail } from 'react-icons/fa'
 
         
 const flexCond = { display: 'flex' }
@@ -58,8 +57,7 @@ export default class ItemPresentazioneSocio extends React.Component {
                     </div>
                     <div className="Contact">
                         <div className="contattiContainer">
-                            <IoMailOpenOutline
-                                className="ImgContact" 
+                            <AiOutlineMail
                                 style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
                             />
                             <p> 
