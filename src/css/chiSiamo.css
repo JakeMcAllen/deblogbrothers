@@ -15,7 +15,7 @@
 }
 
 .socCont {
-    
+
 }
 
 .ImgBox > img {
@@ -97,4 +97,5 @@
     border: 0px solid transparent;
     font-size: 1.6em;
     width: 55px;
+    cursor: pointer;
 }

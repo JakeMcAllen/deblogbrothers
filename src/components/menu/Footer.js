@@ -62,14 +62,12 @@ export default class Footer extends Component {
                         Designed by 
                             <a 
                                 className="FooterLink" 
-                                href="#"
                                 onClick={ () => window.open("https://www.linkedin.com/in/giorgio-allena-bb37b41b6/", '_blank') } 
                             > 
                                 Giorgio Allena
                             </a>
                             <a 
                                 className="FooterLink" 
-                                href="#"
                                 onClick={ () => window.open("https://www.facebook.com/salvo.sapienza.75", '_blank') } 
                             > 
                                 Salvatore Rosario Sapienza 

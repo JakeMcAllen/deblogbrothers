@@ -30,6 +30,7 @@
 .FooterLink:hover {
     color: cyan;
     font-weight: bolder;
+    cursor: pointer;
 }
 
 .designBy {

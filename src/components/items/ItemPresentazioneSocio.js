@@ -46,13 +46,13 @@ export default class ItemPresentazioneSocio extends React.Component {
                     </div>
                     <div className="socialBoxContainer">
 
-                        { ( this.props.facebook != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.facebook, '_blank') } href="#"> <FaFacebookF style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.wordPress != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.wordPress, '_blank') } href="#"> <FaWordpressSimple style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.instagram != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.instagram, '_blank') } href="#"> <FaInstagram style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.behance != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.behance, '_blank') } href="#"> <FaBehance style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.flickr != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.flickr, '_blank') } href="#"> <FaFlickr style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.linkedin != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.linkedin, '_blank') } href="#"> <FaLinkedinIn style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
-                        { ( this.props.twitter != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.twitter, '_blank') } href="#"> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.facebook != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.facebook, '_blank') }> <FaFacebookF style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.wordPress != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.wordPress, '_blank') }> <FaWordpressSimple style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.instagram != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.instagram, '_blank') }> <FaInstagram style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.behance != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.behance, '_blank') }> <FaBehance style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.flickr != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.flickr, '_blank') }> <FaFlickr style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.linkedin != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.linkedin, '_blank') }> <FaLinkedinIn style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
+                        { ( this.props.twitter != "" ) ? <a className="icoDisp" onClick={ () => window.open(this.props.twitter, '_blank') }> <FaTwitter style={{filter: this.props.colorMode ? 'invert(0%)' : 'invert(100%)' }} /> </a> : "" }
 
                     </div>
 
