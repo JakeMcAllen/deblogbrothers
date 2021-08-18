@@ -58,7 +58,8 @@ export default class ItemPresentazioneSocio extends React.Component {
                     <div className="Contact">
                         <div className="contattiContainer">
                             <AiOutlineMail
-                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
+                                className="icoDisp"
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
                             />
                             <p> 
                                 <a 
@@ -75,8 +76,8 @@ export default class ItemPresentazioneSocio extends React.Component {
                             this.props.whatsapp != "" ?
                                 <div className="contattiContainer">
                                     <AiOutlineWhatsApp 
-                                        className="ImgContact" 
-                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
+                                        className="icoDisp" 
+                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
                                     />
                                     <p 
                                         className="refBox" 
@@ -90,8 +91,8 @@ export default class ItemPresentazioneSocio extends React.Component {
                         
                         <div className="contattiContainer">
                             <AiOutlinePhone 
-                                className="ImgContact" 
-                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)' }}
+                                className="icoDisp" 
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px' }}
                             />
                             <p> 
                                 <a 
