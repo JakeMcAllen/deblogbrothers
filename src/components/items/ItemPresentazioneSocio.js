@@ -58,14 +58,11 @@ export default class ItemPresentazioneSocio extends React.Component {
 
                     <div className="Contact">
                         <div className="contattiContainer">
-                            <a 
-                                href={"mailto:" + this.props.mail}
-                            >
-                                <AiOutlineMail
-                                    className="icoDisp"
-                                    style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
-                                />
-                            </a>
+                            <AiOutlineMail
+                                className="icoDisp"
+                                onClick={ () => window.open("mailto:" + this.props.mail, '_blank') }
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0', cursor: pointer }}
+                            />
                             <p> 
                                 <a 
                                     className="refBox" 
@@ -80,14 +77,11 @@ export default class ItemPresentazioneSocio extends React.Component {
                         {
                             this.props.whatsapp != "" ?
                                 <div className="contattiContainer">
-                                    <a 
-                                        href={this.props.whatsapp}
-                                    >
-                                        <AiOutlineWhatsApp 
-                                            className="icoDisp" 
-                                            style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
-                                        />
-                                    </a>
+                                    <AiOutlineWhatsApp 
+                                        className="icoDisp" 
+                                        onClick={ () => window.open(this.props.whatsapp, '_blank') }
+                                        style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0', cursor: pointer }}
+                                    />
                                     <p> 
                                         <a 
                                             className="refBox" 
@@ -100,14 +94,11 @@ export default class ItemPresentazioneSocio extends React.Component {
                         }
                         
                         <div className="contattiContainer">
-                            <a 
-                                href={"tel:+39" + this.props.phoneNumber}
-                            >
-                                <AiOutlinePhone 
-                                    className="icoDisp" 
-                                    style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0' }}
-                                />
-                            </a>
+                            <AiOutlinePhone 
+                                className="icoDisp" 
+                                onClick={ () => window.open("tel:+39" + this.props.phoneNumber, '_blank') }
+                                style={{filter: this.props.colorMode ? 'invert(20%)' : 'invert(100%)', marginLeft: '10px', boxShadow: '0', cursor: pointer }}
+                            />
                             <p> 
                                 <a 
                                     className="refBox" 
