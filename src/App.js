@@ -12,9 +12,11 @@ import cookie from 'react-cookies'
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './css/nav.css';
+import './css/App.css'
 import MenuComponent from './components/menu/MenuComponent'
 import Footer from './components/menu/Footer'
 import setting from './setting'
+
 
 
 
